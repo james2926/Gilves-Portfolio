@@ -2,57 +2,45 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { 
-  Code,
-  FileCode,
-  Palette,
-  Globe,
-  Smartphone,
-  Database,
-  Server,
-  Laptop,
-  Flame,
-  AppWindow,
-  MonitorSmartphone,
-  Phone,
-  BrainCircuit
-} from "lucide-react";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaAngular, FaVuejs, FaNodeJs, FaLaravel, FaPython, FaGem } from "react-icons/fa";
+import { SiTailwindcss, SiNextdotjs, SiNuxtdotjs, SiFlutter, SiAndroid, SiIos, SiDjango, SiRubyonrails, SiMysql, SiPostgresql, SiMongodb, SiFirebase } from "react-icons/si";
 
 const skillCategories = [
   {
     title: "Front-End",
     skills: [
-      { name: "HTML", Icon: FileCode },
-      { name: "CSS", Icon: Palette },
-      { name: "TailwindCSS", Icon: FileCode },
-      { name: "JavaScript", Icon: Code },
-      { name: "React", Icon: Code },
-      { name: "Next.js", Icon: Globe },
-      { name: "Nuxt.js", Icon: Globe },
-      { name: "Angular", Icon: BrainCircuit },
-      { name: "React Native", Icon: Smartphone },
-      { name: "Flutter", Icon: MonitorSmartphone },
-      { name: "Native Android", Icon: Phone },
-      { name: "Native iOS", Icon: AppWindow },
-      { name: "Vue.js", Icon: Code },
-    ],
+      { name: "HTML", Icon: FaHtml5 },
+      { name: "CSS", Icon: FaCss3Alt },
+      { name: "TailwindCSS", Icon: SiTailwindcss },
+      { name: "JavaScript", Icon: FaJs },
+      { name: "React", Icon: FaReact },
+      { name: "Next.js", Icon: SiNextdotjs },
+      { name: "Nuxt.js", Icon: SiNuxtdotjs },
+      { name: "Angular", Icon: FaAngular },
+      { name: "React Native", Icon: FaReact },
+      { name: "Flutter", Icon: SiFlutter },
+      { name: "Native Android", Icon: SiAndroid },
+      { name: "Native iOS", Icon: SiIos },
+      { name: "Vue.js", Icon: FaVuejs },
+    ]
   },
   {
     title: "Back-End",
     skills: [
-      { name: "Node.js", Icon: Server },
-      { name: "Laravel", Icon: Code },
-      { name: "Django", Icon: Code },
-      { name: "Ruby on Rails", Icon: Code },
+      { name: "Node.js", Icon: FaNodeJs },
+      { name: "Laravel", Icon: FaLaravel },
+      { name: "Django", Icon: SiDjango },
+      { name: "Python", Icon: FaPython },
+      { name: "Ruby on Rails", Icon: SiRubyonrails },
     ],
   },
   {
     title: "Database",
     skills: [
-      { name: "MySQL", Icon: Database },
-      { name: "PostgreSQL", Icon: Database },
-      { name: "MongoDB", Icon: Database },
-      { name: "Firebase", Icon: Flame },
+      { name: "MySQL", Icon: SiMysql },
+      { name: "PostgreSQL", Icon: SiPostgresql },
+      { name: "MongoDB", Icon: SiMongodb },
+      { name: "Firebase", Icon: SiFirebase },
     ],
   },
 ];

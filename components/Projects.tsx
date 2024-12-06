@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { ExternalLink, Github, Smartphone, Globe } from "lucide-react";
+import { ExternalLink, Smartphone, Globe } from "lucide-react";
 
 const projects = [
   {
@@ -126,13 +126,6 @@ const Projects = () => {
                   >
                     <ExternalLink className="h-5 w-5 mr-2" />
                     Live Demo
-                  </a>
-                  <a
-                    href={project.githubLink}
-                    className="flex items-center text-gray-300 hover:text-white transition-colors"
-                  >
-                    <Github className="h-5 w-5 mr-2" />
-                    Source Code
                   </a>
                 </div>
               </div>
