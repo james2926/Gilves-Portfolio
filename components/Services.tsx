@@ -53,7 +53,7 @@ const Services = () => {
   };
 
   return (
-    <section id="services" className="py-20 bg-black text-white">
+    <section id="services" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
@@ -63,7 +63,7 @@ const Services = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl font-bold mb-4">Services</h2>
-          <p className="text-gray-300 max-w-2xl mx-auto">
+          <p className="max-w-2xl mx-auto">
             Providing comprehensive solutions for your digital needs with expertise
             in multiple domains.
           </p>
@@ -79,14 +79,14 @@ const Services = () => {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="bg-gray-900 rounded-lg p-8 hover:bg-gray-800 transition-colors duration-300"
+              className="rounded-lg p-8 hover:shadow-lg transition-all duration-300 hover:-translate-y-1"
             >
               <div className="flex flex-col items-center text-center">
-                <div className="bg-blue-500/10 p-4 rounded-full mb-6">
+                <div className="bg-blue-500/30 p-4 rounded-full mb-6">
                   <service.icon className="h-8 w-8 text-blue-500" />
                 </div>
                 <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
-                <p className="text-gray-400">{service.description}</p>
+                <p>{service.description}</p>
               </div>
             </motion.div>
           ))}

@@ -85,7 +85,7 @@ const Skills = () => {
   };
 
   return (
-    <section id="skills" className="py-20 bg-black text-white">
+    <section id="skills" className="py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
@@ -95,7 +95,7 @@ const Skills = () => {
           className="text-center mb-12"
         >
           <h2 className="text-3xl font-bold mb-4">Skills & Expertise</h2>
-          <p className="text-gray-300 max-w-2xl mx-auto">
+          <p className="max-w-2xl mx-auto">
             A comprehensive overview of my technical skills and proficiencies
             across different domains.
           </p>
@@ -111,7 +111,7 @@ const Skills = () => {
             <motion.div
               key={index}
               variants={itemVariants}
-              className="bg-gray-900 rounded-lg p-8"
+              className="border rounded-lg p-8"
             >
               <h3 className="text-xl font-semibold mb-6 text-center">
                 {category.title}
@@ -123,7 +123,7 @@ const Skills = () => {
                     <motion.span
                       key={skillIndex}
                       whileHover={{ scale: 1.05 }}
-                      className="bg-blue-500/10 text-blue-400 px-4 py-2 rounded-full text-sm flex items-center gap-2"
+                      className="bg-blue-500/30 text-blue-400 px-4 py-2 rounded-full text-sm flex items-center gap-2"
                     >
                       <IconComponent className="h-4 w-4" />
                       {skill.name}

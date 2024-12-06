@@ -10,7 +10,7 @@ const About = () => {
   });
 
   return (
-    <section id="about" className="py-20 bg-black text-white">
+    <section id="about" className="py-20 bg-muted/50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           ref={ref}
@@ -21,13 +21,13 @@ const About = () => {
         >
           <div>
             <h2 className="text-3xl font-bold mb-6">About Me</h2>
-            <p className="text-gray-300 mb-6">
+            <p className="text-foreground mb-6">
               I am a passionate Full Stack Developer with extensive experience in building
               modern web and mobile applications. My journey in software development has
               equipped me with a deep understanding of both front-end and back-end
               technologies.
             </p>
-            <p className="text-gray-300 mb-6">
+            <p className="text-foreground mb-6">
               I specialize in creating scalable, efficient, and user-friendly applications
               that solve real-world problems. My approach combines technical expertise with
               creative problem-solving to deliver outstanding results.
@@ -37,7 +37,7 @@ const About = () => {
                 href="#contact"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-white text-black px-6 py-2 rounded-full font-medium hover:bg-gray-200 transition-colors duration-300"
+                className="bg-background text-foreground px-6 py-2 rounded-full font-medium transition-colors duration-300"
               >
                 Contact Me
               </motion.a>
@@ -45,7 +45,7 @@ const About = () => {
                 href="#"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="border border-white px-6 py-2 rounded-full font-medium hover:bg-white hover:text-black transition-colors duration-300"
+                className="border px-6 py-2 rounded-full font-medium hover:bg-white hover:text-black transition-colors duration-300"
               >
                 Download CV
               </motion.a>
