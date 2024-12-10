@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { Code, Smartphone, Bug, Brain  } from "lucide-react";
-import { FaRobot, FaBrain } from "react-icons/fa";
 
 const services = [
   {

@@ -33,19 +33,21 @@ const About = () => {
               creative problem-solving to deliver outstanding results.
             </p>
             <div className="flex space-x-4">
-              <motion.a
+              {/* <motion.a
                 href="#contact"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="bg-background text-foreground px-6 py-2 rounded-full font-medium transition-colors duration-300"
               >
                 Contact Me
-              </motion.a>
+              </motion.a> */}
               <motion.a
-                href="#"
+                href="https://docs.google.com/document/d/1iawUrEVf0UM0VU38W4V3AntAwfKRt_LXSLKe64fpPhw/export?format=pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="border px-6 py-2 rounded-full font-medium hover:bg-white hover:text-black transition-colors duration-300"
+                className="inline-block border px-6 py-2 rounded-full font-medium hover:bg-white hover:text-black transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
+                aria-label="Download CV"
+                download
               >
                 Download CV
               </motion.a>
