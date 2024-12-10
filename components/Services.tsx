@@ -2,7 +2,8 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { Code, Smartphone, Bug } from "lucide-react";
+import { Code, Smartphone, Bug, Brain  } from "lucide-react";
+import { FaRobot, FaBrain } from "react-icons/fa";
 
 const services = [
   {
@@ -16,6 +17,12 @@ const services = [
     title: "Mobile App Development",
     description:
       "Building cross-platform mobile applications with React Native, Flutter, and native development.",
+  },
+  {
+    icon: Brain,
+    title: "AI Development",
+    description:
+      "Building tailored AI solutions, including machine learning models, NLP, computer vision, and predictive analytics, to empower businesses with intelligent, scalable, and efficient systems.",
   },
   {
     icon: Bug,
@@ -73,7 +80,7 @@ const Services = () => {
           variants={containerVariants}
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-4 gap-8"
         >
           {services.map((service, index) => (
             <motion.div

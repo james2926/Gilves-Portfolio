@@ -2,7 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaAngular, FaVuejs, FaNodeJs, FaLaravel, FaPython, FaGem } from "react-icons/fa";
+import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaAngular, FaVuejs, FaNodeJs, FaLaravel, FaPython } from "react-icons/fa";
 import { SiTailwindcss, SiNextdotjs, SiNuxtdotjs, SiFlutter, SiAndroid, SiIos, SiDjango, SiRubyonrails, SiMysql, SiPostgresql, SiMongodb, SiFirebase } from "react-icons/si";
 
 const skillCategories = [

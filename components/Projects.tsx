@@ -11,8 +11,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2089&q=80",
     technologies: ["Next.js", "Node.js", "MongoDB"],
     type: "web",
-    liveLink: "#",
-    githubLink: "#",
+    // liveLink: "#",
+    // githubLink: "#",
   },
   {
     title: "Social Media App",
@@ -20,8 +20,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80",
     technologies: ["React Native", "Firebase", "Node.js"],
     type: "mobile",
-    liveLink: "#",
-    githubLink: "#",
+    // liveLink: "#",
+    // githubLink: "#",
   },
   {
     title: "Task Management System",
@@ -29,8 +29,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2055&q=80",
     technologies: ["Vue.js", "Laravel", "PostgreSQL"],
     type: "web",
-    liveLink: "#",
-    githubLink: "#",
+    // liveLink: "#",
+    // githubLink: "#",
   },
   {
     title: "Fitness Tracking App",
@@ -38,8 +38,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80",
     technologies: ["Flutter", "Firebase", "Node.js"],
     type: "mobile",
-    liveLink: "#",
-    githubLink: "#",
+    // liveLink: "#",
+    // githubLink: "#",
   },
   {
     title: "Food Delivery App",
@@ -47,8 +47,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80",
     technologies: ["Swift", "Firebase", "Node.js"],
     type: "mobile",
-    liveLink: "#",
-    githubLink: "#",
+    // liveLink: "#",
+    // githubLink: "#",
   },
   {
     title: "Travel Guide App",
@@ -56,8 +56,8 @@ const projects = [
     image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80",
     technologies: ["Kotlin", "Firebase", "Google Maps API"],
     type: "mobile",
-    liveLink: "#",
-    githubLink: "#",
+    // liveLink: "#",
+    // githubLink: "#",
   },
 ];
 
@@ -119,7 +119,7 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-                <div className="flex space-x-4">
+                {/* <div className="flex space-x-4">
                   <a
                     href={project.liveLink}
                     className="flex items-center text-gray-300 hover:text-white transition-colors"
@@ -127,7 +127,7 @@ const Projects = () => {
                     <ExternalLink className="h-5 w-5 mr-2" />
                     Live Demo
                   </a>
-                </div>
+                </div> */}
               </div>
             </motion.div>
           ))}
