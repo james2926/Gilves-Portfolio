@@ -41,7 +41,7 @@ const Hero = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl sm:text-6xl font-bold mb-6"
           >
-            Hi, I am Gilves Gonzales
+            Hi, I am John Baker
           </motion.h1>
 
           <motion.p
